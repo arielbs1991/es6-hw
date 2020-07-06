@@ -60,7 +60,6 @@ function promptUser() {
             message: "what is your gitHub username?"
         },
         {
-            //put this is questions section with instructions on how to reach me with additional questions
             type: "input",
             name: "email",
             message: "what is your email address?"
@@ -73,6 +72,8 @@ function generateReadme(answers) {
     # Your Project Title
 
     ${answers.title}
+
+    ${answers.license}
 
     ## Description
 
@@ -120,7 +121,6 @@ promptUser()
     const md = generateReadme(answers);
 
     return writeFileAsync("generatedReadMe.md", md);
-    console.log(md);
   })
   .then(function() {
     
