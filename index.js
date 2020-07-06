@@ -30,7 +30,6 @@ function promptUser() {
             message: "please provide instructions and examples for how to use your project:"
         },
         {
-            //notice must be added that explains which license the application is covered under
             type: "list",
             name: "license",
             choices: [
@@ -99,7 +98,7 @@ function generateReadme(answers) {
     ${answers.credits}
 
     ## License and Badges
-    
+
     ${answers.license}
 
     ## Contributing
