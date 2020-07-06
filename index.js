@@ -99,7 +99,7 @@ function generateReadme(answers) {
     ${answers.credits}
 
     ## License and Badges
-
+    
     ${answers.license}
 
     ## Contributing
@@ -112,7 +112,7 @@ function generateReadme(answers) {
 
     ## Questions
 
-    If you have any questions, please reach out to me at ${answers.email}, or find me at https://github.com/${answers.github}
+    If you have any questions, please reach out to me at ${answers.email}, or find me at https://github.com/${answers.gitHub}
     `
 };
 
@@ -120,7 +120,7 @@ promptUser()
   .then(function(answers) {
     const md = generateReadme(answers);
 
-    return writeFileAsync("readMe.md", md);
+    return writeFileAsync("generatedReadMe.md", md);
     console.log(md);
   })
   .then(function() {

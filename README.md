@@ -1,11 +1,11 @@
 
     # Your Project Title
 
-    a
+    readme generator hw
 
     ## Description
 
-    a
+    user runs node and is prompted to answer questions about their project which generates a complete readme file
 
     ## Table of Contents (Optional)
 
@@ -16,15 +16,15 @@
 
     ## Installation
 
-    a
+    clone from github
 
     ## Usage 
 
-    a
+    open your terminal within your code, run node index.js and answer prompts as completely as possible. Once finished you will have a readme markdown file
 
     ## Credits
 
-    a
+    joe's class activitie
 
     ## License and Badges
 
@@ -32,13 +32,13 @@
 
     ## Contributing
 
-    a
+    joe's class activitie
 
     ## Tests
 
-    a
+    great question, we'll learn that soon
 
     ## Questions
 
-    If you have any questions, please reach out to me at a, or find me at https://github.com/undefined
+    If you have any questions, please reach out to me at arielbs1991@gmail.con, or find me at https://github.com/undefined
     
