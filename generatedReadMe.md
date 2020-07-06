@@ -3,9 +3,11 @@
 
     Readme Generator Homework
 
+    DWTFYW Public License [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+
     ## Description
 
-    Using node.js and inquirer, the program prompts a user to answer questions as in-depth as possible about their application, and uses those responses to generate a complete, professional readme file
+    A user is prompted to answer a series of questions about their application. Those answers are then used to generate a formatted and professional readme file.
 
     ## Table of Contents (Optional)
 
@@ -16,15 +18,15 @@
 
     ## Installation
 
-    Go to my github page, clone the respository, and open in your vscode or preferred coding program
+    Access my github and readme-generator-hw repo, then clone onto your computer
 
     ## Usage 
 
-    with the index.js file open, open your terminal on the readme-generator-hw folder, and type in node index.js
+    using your preferred coding software, open the readme-generator-hw folder and access the index.js file using your terminal. Run node index.js, and answer all of the prompts to the best of your ability with as much detail as possible. A generatedReadMe.md file will be generated, from which you can copy into a finalized README.md file and attach any screenshots or videos necessary before uploading.
 
     ## Credits
 
-    Joe's week five lectures, my classmates, etc.
+    Joe and Denis's lectures in the coding bootcamp program, and collaboration with classmates
 
     ## License and Badges
 
@@ -32,11 +34,11 @@
 
     ## Contributing
 
-    Joe's week five lectures, my classmates, etc.
+    Joe and Denis's lectures in the coding bootcamp program, and collaboration with classmates
 
     ## Tests
 
-    great question! We will be going over testing more in depth this week
+    great question! We go into testing more this week
 
     ## Questions
 

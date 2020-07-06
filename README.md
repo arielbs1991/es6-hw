@@ -1,43 +1,45 @@
-    # Your Project Title
+  # Your Project Title
 
     Readme Generator Homework
 
+    DWTFYW Public License [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+
     ## Description
 
-    Using node.js and inquirer, the program prompts a user to answer questions as in-depth as possible about their application, and uses those responses to generate a complete, professional readme file
+    A user is prompted to answer a series of questions about their application. Those answers are then used to generate a formatted and professional readme file. The prompts are generated using the npm Inquirer [link to docs](https://www.npmjs.com/package/inquirer), and run using node.js.
 
-    ## Table of Contents (Optional)
+    ## Table of Contents
 
     * [Installation](#installation)
     * [Usage](#usage)
     * [Credits](#credits)
     * [License](#license)
+    * [Tests](#tests)
 
     ## Installation
 
-    Go to my github page, clone the respository, and open in your vscode or preferred coding program
+    Access my github and readme-generator-hw repo at https://github.com/arielbs1991, then clone onto your computer using your preferred terminal.
 
     ## Usage 
 
-    with the index.js file open, open your terminal on the readme-generator-hw folder, and type in node index.js
+    Using your preferred coding software, open the readme-generator-hw folder and access the index.js file within your terminal. Run node index.js, and answer all of the prompts to the best of your ability with as much detail as possible. A generatedReadMe.md file will be generated, from which you can copy into a finalized README.md file and attach any screenshots or videos necessary before uploading alongside your application.
 
     ## Credits
 
-    Joe's week five lectures, my classmates, etc.
+    Joe and Denis's lectures in the coding bootcamp program, and collaboration with classmates.
 
     ## License and Badges
 
     DWTFYW Public License [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
-    ## Contributing
+    ## Links and Images
 
-    Joe's week five lectures, my classmates, etc.
+    https://drive.google.com/file/d/1CqVT-20v5zpdzvQn3by1LRybpXJYWYjD/view 
 
     ## Tests
 
-    great question! We will be going over testing more in depth this week
+    Great question! We go into testing more this week.
 
     ## Questions
 
     If you have any questions, please reach out to me at arielbs1991@gmail.com, or find me at https://github.com/arielbs1991
-    

@@ -79,12 +79,13 @@ function generateReadme(answers) {
 
     ${answers.description}
 
-    ## Table of Contents (Optional)
+    ## Table of Contents
 
     * [Installation](#installation)
     * [Usage](#usage)
     * [Credits](#credits)
     * [License](#license)
+    * [Tests](#tests)
 
     ## Installation
 
@@ -102,9 +103,7 @@ function generateReadme(answers) {
 
     ${answers.license}
 
-    ## Contributing
-
-    ${answers.credits}
+    ## Links and Images
 
     ## Tests
 
@@ -119,8 +118,7 @@ function generateReadme(answers) {
 promptUser()
   .then(function(answers) {
     const md = generateReadme(answers);
-
-    return writeFileAsync("generatedReadMe.md", md);
+    return writeFileAsync("generatedREADME.md", md);
   })
   .then(function() {
     
